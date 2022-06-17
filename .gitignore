@@ -1,0 +1,27 @@
+.settings/*
+
+#ignore all files in each directory
+*/*         
+
+#unignore .c files in each directory
+!*/*.c      
+
+#unignore .h header files in each directory
+!*/*.h      
+
+#unignore a (archivo_tareas)
+!Discordiador/a
+
+#unignore .gitignore
+!.gitignore 
+
+!makefile
+
+#!Dump*
+
+!*.txt
+
+*.o
+
+
+
